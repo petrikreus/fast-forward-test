@@ -1,5 +1,6 @@
 import './App.css'
 import {NewComponent} from "./NewComponent";
+import {Feature2Component} from "./Feature2Component";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         Merging with ff
       </p>
       <NewComponent />
+      <Feature2Component />
     </div>
   )
 }
